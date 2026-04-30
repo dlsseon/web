@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+.header-image-container {
+    background-color: #f8f9fa; /* 사진 로딩 전 배경색 */
+    text-align: center;        /* 사진 가운데 정렬 */
+   /* padding: 10px 0*/    /* 위아래 여백 (필요시) */
+}
+
+.header-image-container img {
+    max-height: 300px;         /* 사진이 너무 높지 않게 제한 */
+    width: auto;               /* 가로 비율 유지 */
+    max-width: 100%;           /* 화면보다 커지지 않게 */
+}
+
+
+body {
+ font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+}
